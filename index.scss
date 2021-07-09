@@ -1,0 +1,33 @@
+.search-index{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  max-width: 540px;
+  min-width: 320px;
+  height: 44px;
+  background-color: pink;
+  // background-color: #f6f6f6;
+  .search{
+    flex: 1;
+  }
+  .user{
+    width: 44px;
+    height: 44px;
+    background-color: purple;
+    font-size: 12px;
+    text-align: center;
+    color: #2eaae0;
+    &::before{
+      content: "";
+      display: block;
+      width: 25px;
+      height: 25px;
+      background: url('./images/sprite.png') no-repeat -58px -192px;
+      background-size: 104px auto;
+      margin: 2px auto 0px;
+    }
+  }
+}
