@@ -11,4 +11,12 @@ body{
 }
 a{
   text-decoration: none;
+  color: #333333;
+}
+ul{
+  list-style: none;
+}
+ul, p{
+  margin: 0;
+  padding: 0;
 }
