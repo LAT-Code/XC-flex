@@ -1,6 +1,6 @@
 body{
-  /* max-width: 750px; */
-  max-width: 540px;
+  max-width: 750px;
+  /* max-width: 540px; */
   min-width: 320px;
   margin: 0 auto;
   font: normal 14px/1.5 Tahoma,"Lucide Grande",Verdana,"Microsoft Yahei",STXihei,hei;
