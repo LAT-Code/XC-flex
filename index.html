@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
   <title>寒冰旅行</title>
   <link rel="stylesheet" href="./base.css">
   <link rel="stylesheet" href="./index.css">
@@ -150,7 +151,7 @@
       <span class="foot-icon"></span>
       <span class="foot-title">下载客户端</span>
     </li>
-    <li>
+    <li onclick="fn()">
       <span class="foot-icon"></span>
       <span class="foot-title">我 的</span>
     </li>
@@ -160,5 +161,11 @@
     <span>@2021·寒冰旅行</span>
     <span>电脑版</span>
   </div>
+  <script>
+    function fn(){
+      console.log("dsf");
+      alert("ceshi")
+    }
+  </script>
 </body>
 </html>
